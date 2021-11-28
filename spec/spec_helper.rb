@@ -15,8 +15,12 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'pry'
 RSpec.configure do |config|
+
+  #------------my personal configurations here------------------------
   # config.filter_run_when_matching(focus: true)
   config.example_status_persistence_file_path = 'spec/examples.txt'
+  #-----------end of my configs---------------------------------------
+
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
