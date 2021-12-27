@@ -24,8 +24,8 @@
 ## basic request spec format
 use rspec-rails in gemfile\
 Rspec.describe "xxx", type: :request do
- > get ---_path
- > post ---_path, xxxx: {name: "bob", age: 25}
- > expect(response.body).to include 'xxxx successfully created!'
+ > get ---_path\
+ > post ---_path, xxxx: {name: "bob", age: 25}\
+ > expect(response.body).to include 'xxxx successfully created!'\
  > expect(response).to have_http_status(200)\
  end
