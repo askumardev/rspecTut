@@ -28,4 +28,4 @@ Rspec.describe "xxx", type: :request do
  > post ---_path, xxxx: {name: "bob", age: 25}\
  > expect(response.body).to include 'xxxx successfully created!'\
  > expect(response).to have_http_status(200)\
- end
+end
