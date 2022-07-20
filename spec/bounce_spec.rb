@@ -18,6 +18,6 @@ describe 'Bouncer' do
 
   it "checks something" do
     expect(3+4).to be(7)
-    expect(3+4).to be(47)
+    #expect(3+4).to be(47)
   end
 end
