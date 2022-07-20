@@ -1,6 +1,7 @@
 # In RSpec, a stub is often called a Method Stub, it’s a special type of method 
 # that “stands in” for an existing method, or for a method that doesn’t even exist yet.
 
+require 'class_room'
 describe ClassRoom do 
   it 'the list_student_names method should work correctly' do 
     student1 = double('student') 
