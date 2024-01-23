@@ -21,3 +21,5 @@ describe 'Bouncer' do
     #expect(3+4).to be(47)
   end
 end
+
+#rspec .\spec\bounce_spec.rb
